@@ -1,0 +1,42 @@
+.main {
+    height: 100%;
+    width: 100%;
+    background-color:grey;
+    margin-top: 15%;
+}
+.btn {
+    margin-top: 50px;
+    text-align: center;
+    background-color: grey;
+  }
+  .both {
+    width: 150px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 30px;
+    outline: none;
+    border: 3px solid black;
+    transition: all ease 0.5s;
+  }
+  #first {
+    cursor: pointer;
+  }
+  #first:hover {
+    background-color: lightgreen;
+    color: white;
+    border: 3px solid white;
+  }
+  #second {
+    cursor: not-allowed;
+  }
+  #second:hover {
+    background-color: lightblue;
+    color: white;
+    border: 3px solid white;
+  }
+  
